@@ -2,7 +2,7 @@
 set -e 
 
 module purge
-module load intel.compiler/17.0.2 intel.mpi/17.0.2_ofi netcdf/4.4.0_intel cdo
+module load intel.compiler/17.0.2 intel.mpi/17.0.2_ofi netcdf/4.4.0_intel cdo centoslibs
 module list
 
 export FUNCTION_PATH=/home/ollie/pgierz/easy-scripts/functions/all
