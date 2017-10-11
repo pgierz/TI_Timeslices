@@ -16,9 +16,9 @@ do
     current_obliquity=$(cat obliquity.txt | tail -$i | head -1 | tr -d '[:space:]')
     current_eccentricity=$(cat eccentricity.txt | tail -$i | head -1 | tr -d '[:space:]')
 
-    sed -i "s/190.e-6/$current_co2_value/" $current_file
-    sed -i "s/375.e-9/$current_ch4_value/" $current_file
-    sed -i "s/193.e-9/$current_n2o_value/" $current_file
+    sed -i "s/190.e-6/${current_co2_value}e-6/" $current_file
+    sed -i "s/375.e-9/${current_ch4_value}e-9/" $current_file
+    sed -i "s/193.e-9/${current_n2o_value}e-9/" $current_file
     
     sed -i "s/294.23/$current_perihelion/" $current_file
     sed -i "s/22.94/$current_obliquity/" $current_file

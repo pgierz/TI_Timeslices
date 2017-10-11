@@ -60,6 +60,7 @@ INI_RESTART_DIR_echam=/home/ollie/pgierz/mpiesm-pism-sc/restart_files/LGM_Transi
 INI_RESTART_DIR_jsbach=/home/ollie/pgierz/mpiesm-pism-sc/restart_files/LGM_Transient_1/jsbach
 INI_RESTART_DIR_hdmodel=/home/ollie/pgierz/mpiesm-pism-sc/restart_files/LGM_Transient_1/jsbach
 INI_RESTART_DIR_mpiom=/home/ollie/pgierz/mpiesm-pism-sc/restart_files/LGM_Transient_1/mpiom
+INI_RESTART_DIR_hamocc=/home/ollie/pgierz/mpiesm-pism-sc/restart_files/LGM_Transient_1/hamocc
 INI_RESTART_DIR_oasis3mct=/home/ollie/pgierz/mpiesm-pism-sc/restart_files/LGM_Transient_1/oasis3mct
 
 
